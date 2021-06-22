@@ -1,0 +1,11 @@
+name: Label approved pull requests
+env:
+  uses: abinoda/label-when-approved-action@1.0.5
+on: pull_request_review
+jobs:
+  labelWhenApproved:
+    runs-on: ubuntu-latest
+    
+
+
+
